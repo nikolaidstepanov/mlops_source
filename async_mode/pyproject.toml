@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mlops-async-kafka"
+version = "0.1.0"
+description = "Package for OTUS lesson about Async mode for ML models"
+authors = ["Nikolay Stepanov <nikolai.d.stepanov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kafka-python = "2.0.2"
+lz4 = "4.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
