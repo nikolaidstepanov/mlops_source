@@ -163,3 +163,8 @@ cython_debug/
 #.idea/
 
 .DS_store
+
+
+# Data
+data.csv
+cloud_practice/dataproc/pyspark_venv.tar.gz
